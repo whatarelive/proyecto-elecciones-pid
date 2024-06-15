@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Inter', system-ui, 'Segoe UI', sans-serif
 }

@@ -1,49 +1,33 @@
-import {useNavigate} from "react-router";
+import { NavButton } from "../../util";
+
 
 export const PresentationView = () => {
-
-    // Objeto navigate
-    const navigate = useNavigate();
-
-    // Función de navegación a la pantalla de votacion.
-    const onClickNavigate = () => {
-        navigate(
-            '/votacion',
-            {replace: true}
-        );
-    }
-
     return (
-        <section className="flex-1 min-h-min bg-gradient-to-b from-blue-700 to-white">
-            <article className="flex flex-1 flex-row m-auto">
-                <div className="flex flex-1 flex-col m-auto items-center">
-                    <div className='flex flex-1 flex-col items-start'>
-                        <h1 className="flex flex-col font-bold text-8xl text-gray-800">
-                            <span>Elecciones</span>
-                            <span>Provinciales</span>
-                        </h1>
-                        <div className="flex flex-1 flex-row justify-center items-baseline">
-                            <p className="text-8xl font-bold text-red-500">CU</p>
-                            <p className="text-8xl font-bold text-blue-600">B</p>
-                            <p className="text-8xl font-bold text-white">A</p>
-                            <p className="text-8xl font-bold text-blue-600">N</p>
-                            <p className="text-8xl font-bold text-white">A</p>
-                            <p className="text-8xl font-bold text-blue-600 mr-3">S</p>
-                            <p className="text-5xl font-bold text-gray-800">2024</p>
-                        </div>
-                        <p className="mt-2 text-center text-xl text-gray-700">
-                            Tu decisión importa. Vota para construir una mejor nación.
-                        </p>
-                        <button
-                            className="bg-blue-800 mt-10 px-5 py-2 text-white font-semibold rounded hover:bg-blue-600"
-                            onClick={ onClickNavigate }>
-                            VOTAR
-                        </button>
+        <section className="flex flex-col md:flex-row min-h-min px-6 py-8 xl:px-20 md:py-14 bg-gradient-to-b from-indigo-400 to-white">
+            <article className="flex flex-1 items-center self-center">
+                <div className='flex flex-1 flex-col ml-5 items-start'>
+                    <h1 className="flex flex-col font-semibold text-5xl xl:text-7xl text-gray-800">
+                        <span>Elecciones</span>
+                        <span>Provinciales</span>
+                    </h1>
+                    <div className="flex flex-1 flex-row justify-center items-baseline">
+                        <p className="text-5xl xl:text-7xl font-semibold text-red-500">CU</p>
+                        <p className="text-5xl xl:text-7xl font-semibold text-blue-600">B</p>
+                        <p className="text-5xl xl:text-7xl font-semibold text-white">A</p>
+                        <p className="text-5xl xl:text-7xl font-semibold text-blue-600">N</p>
+                        <p className="text-5xl xl:text-7xl font-semibold text-white">A</p>
+                        <p className="text-5xl xl:text-7xl font-semibold text-blue-600 mr-3">S</p>
+                        <p className="text-2xl xl:text-3xl font-bold text-gray-800">2024</p>
                     </div>
+                    <p className="mt-4 mb-8 text-start xl:text-lg text-gray-500">
+                        Tu decisión importa. <b>Vota</b> para construir una mejor nación.
+                    </p>
+                    <NavButton title="VOTAR" destiny="diputados"/>
                 </div>
-                <div className="flex flex-1 m-auto p-28 justify-center items-center">
-                    <img src='/src/assets' className='flex w-auto h-auto m-auto' alt=''></img>
-                </div>
+            </article>
+
+            <article className="flex flex-1 m-auto mt-4 p-6 justify-center items-center">
+                <img src='/src/assets/voto.png' className='sm:max-w-md md:max-w-xs lg:max-w-md xl:max-w-xl' alt='Votación'></img>
             </article>
         </section>
     )

@@ -23,7 +23,7 @@ export const NavBar = () => {
           <NavItem title="Inicio" destiny={'/home'}/>
           <NavItem title="Diputados" destiny={'/diputados'}/>
           <NavItem title="Resultados" destiny={'/stats'}/>
-          <NavButton/>
+          <NavButton title="Registrarse" destiny="login" icon='flecha-correcta.png' />
         </div>
       </nav>
     </header>
