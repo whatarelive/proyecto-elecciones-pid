@@ -11,13 +11,14 @@ export const NavItem = ( props: PropsNavItem ) => {
     const { title, destiny, color } = props;
 
   return (
-    <NavLink
-        className={({isActive}) =>
-            `nav-link text-xl mx-3 my-1 font-semibold hover:text-amber-500 
-            ${ color } 
-            ${ isActive ? "text-blue-800" : ""}`
-        }
-        to={ destiny }>
+    <NavLink 
+      to={ destiny }
+      className={({isActive}) =>
+        `my-1 text-base font-semibold 
+        ${ color } 
+        ${ color !== 'text-white' && 'hover:text-amber-500' } 
+        ${ isActive ? "text-blue-800" : "" }`
+      }>
         { title }
     </NavLink>
   )
