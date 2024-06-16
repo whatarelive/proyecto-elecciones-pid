@@ -1,6 +1,6 @@
 import { useLocation } from "react-router";
 import { AppRouter } from "./router/AppRouter";
-import { NavBar } from "./util";
+import { Footer, NavBar } from "./util";
 
 
 export const EleccionesApp = () => {
@@ -12,6 +12,8 @@ export const EleccionesApp = () => {
         { pathname !== '/login' && <NavBar/> }
         
         <AppRouter/>
+
+        { pathname !== '/login' && <Footer/> }
     </>
   )
 }

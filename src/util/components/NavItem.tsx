@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 
 interface PropsNavItem {
-    title: string,
-    destiny: string,
-    color?: string
+  title: string,
+  destiny: string,
+  color?: 'text-gray-700' | string
 } 
 
 export const NavItem = ( props: PropsNavItem ) => {
