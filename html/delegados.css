@@ -1,0 +1,220 @@
+
+  /* ESTILO GENERALES */
+  body {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #EFF2FF;
+  }
+
+  img {
+    width: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  .box{
+    width: 80%;
+    height: 100%;
+    margin-top: 100px;
+    border-radius: 8px; 
+    box-shadow: 2px 2px 5px #d3dafe;
+    padding: 0 0 16px 0;
+    background-color: #fff;
+  }
+
+  .nav-box {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+  }
+
+  .nav-item {
+    display: flex;
+  }
+
+  /* BARRA DE BUSQUEDA */
+  .search-bar {
+    display: flex;
+    height: 46px;
+    background: #E4F1FE;
+    border-radius: 8px;
+  }
+
+  .search-bar input[type="search"] {
+    width: 200px;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #152ebd;
+    border: 1px solid #ccc;
+    background: #E4F1FE;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+  }
+
+  .search-bar img {
+    padding: 6px;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+
+  .search-bar input[type="search"]::placeholder {
+    color: #657af1;
+  }
+
+  /* LOCALITATION */
+  .location-box {
+    height: 46px;
+    display: flex;
+  }
+
+  .location-box button {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    padding-right: 16px;
+    margin-left: 16px;
+    border: none;
+    border-radius: 8px;
+    color: #FF5B45;
+    background-color: #FFE5E1;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .location-box img {
+    margin-right: 10px;
+  }
+
+  .location-box button:hover {
+    background-color: #fed9d4;
+  }
+
+  .location-box button:active {
+    background-color: #ffd1cb;
+  }
+
+  /* CHECK BOX */
+  .check-box{
+    position: relative;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    right: 0%;
+    cursor: pointer;
+  }
+
+  .check-box img {
+    position: absolute;
+    left: -36px;
+    top: 4px;
+  }
+
+  .check-box p {
+    margin: 0;
+    color: #1EAA6F;
+    font-weight: 600;
+  }
+
+  .check-box span{
+   border: none;
+   outline: none;
+   font-size: 16px;
+   color: #525252;
+   background-color: #fff;
+  }
+
+  .data-bar{
+    margin-top: 1px;
+    padding: 10px 16px;
+    display: flex;
+    background-color:  #ffffff;
+    justify-content:space-between ;
+    border-top: 1px solid #E7EBFF;
+
+  }
+
+  .data-bar div {
+    width: 33%;
+    font-weight: 700;
+    border: none;
+  }
+
+  .data-item {
+    display: flex;
+    align-items: center;
+  }
+  .data-item img {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.2s;
+  }
+
+  .data-item img:hover {
+    background-color: #eef1fe;
+  }
+
+  .data-item img:active {
+    background-color: #E7EBFF;
+  }
+  
+
+  /* LISTA DE ELEMNTOS */
+  .item-list {
+    list-style: none;
+    background-color:  #ffffff;
+    border-top: 1px solid #E7EBFF;
+  }
+
+  .item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: row;
+  }
+
+  .avatar {
+    display: flex;
+    align-items: center;
+  }
+
+  .avatar img {
+    border-radius: 50%;
+    padding: 12px;
+    height: 32px;
+    width: 32px;
+    margin-right: 16px;
+    background-color:#E7EBFF ;
+  }
+
+  .texto {
+    flex-grow: 1;
+    display: flex;
+  }
+
+  .texto div {
+    width: 33%;
+    display: flex;
+    align-items: center;
+  }
+  .bio{
+    padding: 0 16px;
+  }
+
+  .bio p {
+    font-weight: bold;
+  }

@@ -14,7 +14,7 @@ export const NavItem = ( props: PropsNavItem ) => {
     <NavLink 
       to={ destiny }
       className={({isActive}) =>
-        `my-1 text-base font-semibold 
+        `my-1 text-base font-semibold selection:select-none 
         ${ color } 
         ${ color !== 'text-white' && 'hover:text-amber-500' } 
         ${ isActive ? "text-blue-800" : "" }`

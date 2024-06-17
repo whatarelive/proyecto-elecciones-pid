@@ -3,7 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily: ['Rubik', 'sans-serif', 'Roboto'],
+      colors : [
+        { footer: '#263238' }
+      ]
     },
   },
   plugins: [],
