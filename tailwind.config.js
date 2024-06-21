@@ -4,7 +4,10 @@ export default {
   theme: {
     extend: {
       colors : [
-        { footer: '#263238' }
+        { 
+          footer: '#263238',
+          body: '#EFF2FF'
+        }
       ]
     },
   },

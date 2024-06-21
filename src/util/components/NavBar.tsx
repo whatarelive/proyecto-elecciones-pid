@@ -8,7 +8,7 @@ export const NavBar = () => {
   const [ enable, setEnable ] = useState( false );
 
   return (
-    <header className='flex flex-col md:flex-row py-2 px-4 md:px-20 lg:px-32 justify-between'>
+    <header className='flex flex-col md:flex-row py-2 px-4 md:px-20 lg:px-32 justify-between bg-white opacity-85'>
       <div className='flex flex-row items-center justify-between selection:select-none cursor-default'>
         <h2>
           <span className='text-red-600 font-bold text-2xl'>Cuba</span>
