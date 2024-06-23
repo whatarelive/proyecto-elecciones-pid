@@ -1,4 +1,5 @@
 import { NavButton } from "../../util";
+import Seguridad from "../../assets/seguridad.png";
 
 export const PrivacyView = () => {
   return (
@@ -6,7 +7,7 @@ export const PrivacyView = () => {
       <div className='flex'>
         <img 
           className='sm:max-w-md md:max-w-xs lg:max-w-md' 
-          src="/src/assets/seguridad.png" 
+          src={ Seguridad } 
           alt="Imagen de privacidad"/>
       </div>
       <div className='flex w-10/12 md:w-6/12 md:pr-8 py-8 flex-col items-center md:items-start'>
@@ -16,7 +17,7 @@ export const PrivacyView = () => {
             Su privacidad es primordial, y sus datos se manejan con estrictas normas de protección.
             Para saber más sobre el tema consulte nuestras <b>normas y políticas de privacidad</b>
         </p>
-        <NavButton title="Registrarse" destiny="login" icon='flecha-correcta.png'/>
+        <NavButton title="Registrarse" destiny="login" icon />
       </div>
     </section>
   )

@@ -1,5 +1,5 @@
 import { NavButton } from "../../util";
-
+import Voto from "../../assets/voto.png";
 
 export const PresentationView = () => {
     return (
@@ -22,12 +22,12 @@ export const PresentationView = () => {
                     <p className="mt-4 mb-8 text-start xl:text-lg text-gray-500">
                         Tu decisión importa. <b>Vota</b> para construir una mejor nación.
                     </p>
-                    <NavButton title="VOTAR" destiny="diputados"/>
+                    <NavButton title="VOTAR" destiny="diputados" icon={ false }/>
                 </div>
             </article>
 
             <article className="flex flex-1 m-auto mt-4 p-6 justify-center items-center">
-                <img src='/src/assets/voto.png' className='sm:max-w-md md:max-w-xs lg:max-w-md xl:max-w-xl' alt='Votación'></img>
+                <img src={ Voto } className='sm:max-w-md md:max-w-xs lg:max-w-md xl:max-w-xl' alt='Votación'></img>
             </article>
         </section>
     )

@@ -1,6 +1,7 @@
-import { Password, FindPerson, HowToVote } from "../../assets/svg";
 import { StepsItem } from "../components";
-
+import FindPerson from "../../assets/svg/find.svg";
+import HowToVote from "../../assets/svg/how_to_vote.svg";
+import Password from "../../assets/svg/password-2.svg";
 
 export const StepsView = () => {
   return (
@@ -11,22 +12,16 @@ export const StepsView = () => {
       </article>
 
       <article className='flex flex-1 flex-col md:flex-row mt-12 gap-10 md:gap-0 items-center justify-center'>
-        <StepsItem 
-          title="1. Registro" 
+        <StepsItem title="1. Registro" icon={ Password } 
           description="Introduzca sus credenciales para verificar su identidad de forma rápida y segura.">
-          <Password size={44}/>
         </StepsItem>
 
-        <StepsItem 
-          title="2. Elección" 
+        <StepsItem title="2. Elección" icon={ FindPerson }
           description="Seleccione al candidato que mejor represente sus ideales y aspiraciones para la nación.">
-          <FindPerson size={44}/>
         </StepsItem>
-        
-        <StepsItem 
-          title="3. Voto" 
+
+        <StepsItem title="3. Voto" icon={ HowToVote } 
           description="Haga click en el botón Votar para emitir su voto de manera segura y anónima.">
-          <HowToVote size={42}/>
         </StepsItem>
       </article>
     </section>
