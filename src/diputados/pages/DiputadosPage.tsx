@@ -1,26 +1,30 @@
-import { SearchBar } from "../views/SearchBar"
+import { FilterBar } from "../views/FilterBar";
+import { SearchBar } from "../views/SearchBar";
+import data from "../data/prueba.json";
+import { Diputado } from "../components/Diputado";
+
 
 export const DiputadosPage = () => {
   return (
-    <main className='flex flex-col w-4/5 min-h-screen m-auto mt-24 rounded-ss-3xl rounded-se-3xl bg-white'>
+    <main className='flex flex-col w-4/5 min-h-screen m-auto mt-20 rounded-ss-3xl rounded-se-3xl bg-white'>
       {/* <!-- barra pricipal --> */}
       <SearchBar/>
+      <hr />
+      
       {/* <!-- barra de informacion de las columnas --> */}
-      <div className="data-bar">
-        <div className="data-item">
-          <p className="tab">Nombre</p>
-          <img src="keyboard_arrow_down.svg" alt=""/>
-        </div>
-        <div className="data-item">
-          <p className="tab">Edad</p>
-          <img src="keyboard_arrow_down.svg" alt=""/>
-        </div>
-        <div className="data-item">
-          <p className="tab">Cargo</p>
-        </div>
-      </div>
+      <FilterBar/>
+      <hr />
 
       <ul>
+        {
+          data.map( (item, index) => (
+              <>
+                <Diputado key={index} diputado={item}/>
+                <hr />
+              </>
+            )
+          )
+        }
       </ul>
     </main>
   )

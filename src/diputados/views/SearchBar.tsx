@@ -1,6 +1,7 @@
 import Location from "../../assets/svg/location_on.svg";
 import Search from "../../assets/svg/search.svg";
 import { CheckVote } from "./CheckVote";
+// import { IncorrectZone } from "./IncorrectZone";
 
 export const SearchBar = () => {
   return (
@@ -33,6 +34,7 @@ export const SearchBar = () => {
 
       {/* Seccion de comporbacion de votacion */}
       <CheckVote/>
+      {/* <IncorrectZone/> */}
     </div> 
   )
 }

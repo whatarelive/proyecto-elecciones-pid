@@ -1,8 +1,228 @@
-{
-    "diputados": [
-        {
-            "nombre": ""
-            
-        }
-    ]
-}
+[
+    {
+      "nombre": "Ramiro Valdés Menéndez", 
+      "imagen": "art1", 
+      "age": "90", 
+      "provincia": "Artemisa", 
+      "municipio": "Artemisa", 
+      "cargo": "Comandante de la Revolución. Vice primer ministro", 
+      "biografia": "Asaltante al Cuartel Moncada, expedicionario del Granma, combatiente del Ejército Rebelde, fue ascendido al grado de Comandante. Al triunfo de la Revolución, Segundo Jefe de La Cabaña, Jefe Militar en la región central, jefe de los órganos de la Seguridad del Estado. Fue Ministro del Interior, viceministro primero de las FAR, ayudante del Comandante en Jefe, vice primer ministro a cargo del Sector de la Construcción, ministro de la Informática y las Comunicaciones y vicepresidente de los Consejos de Estado y de Ministros. Es miembro fundador del Comité Central del Partido y de su Buró Político. Ha cumplido importantes misiones de carácter oficial, político y económico, como la búsqueda, ubicación, exhumación y traslado a Cuba de los restos del Che y sus compañeros en Bolivia. Es Héroe de la República de Cuba.,Actualmente es Vice primer ministro" 
+    },
+    {
+      "nombre": "Maria Mercedes Cordero Diaz", 
+      "imagen": "art2", 
+      "age": "50", 
+      "provincia": "Artemisa", 
+      "municipio": "Bauta", 
+      "cargo": "Jefa de la Unidad de Trabajo Social del Consejo de la Administración Municipal.", 
+      "biografia": "Licenciada en Educación Primaria. Fue cuadro de la UJC como funcionaria para atender la Organización de Pioneros. Fue miembro del Comité Municipal de la UJC. Atendió el Programa de los Trabajadores Sociales como Jefa del Frente y Organización. Ha sido delegada durante tres mandatos. Jefa de la Unidad de Trabajo Social del Consejo de la Administración Municipal." 
+    },
+    {
+      "nombre": "Viviana Barrios Echazabal", 
+      "imagen": "art3", 
+      "age": "35", 
+      "provincia": "Artemisa", 
+      "municipio": "Caimito", 
+      "cargo": "Presidenta del Consejo Popular Cabañas.", 
+      "biografia": "Destacada trayectoria estudiantil. Comienza a trabajar en la Dirección General de Inteligencia como jefa del Punto de Control desde el año 2008 hasta el 2011. En el año 2012 es elegida Delegada a la Asamblea Municipal del Poder Popular y en el 2014 ocupa el cargo de presidenta del Consejo Popular de Cabañas" 
+    },
+    {
+      "nombre": "Humberto Camilo Hernandez Suarez", 
+      "imagen": "art4", 
+      "age": "69", 
+      "provincia": "Artemisa", 
+      "municipio": "Guanajay", 
+      "cargo": "Miembro del Comité Central del Partido. Jefe del Departamento de Política de Cuadros del Comité Central del Partido.", 
+      "biografia": "Miembro del Comité Central del Partido. Jefe del Departamento de Política de Cuadros del Comité Central del Partido." 
+    },
+    {
+      "nombre": "William Licourt Gonzalez", 
+      "imagen": "art5", 
+      "age": "43", 
+      "provincia": "Artemisa", 
+      "municipio": "Guira de Melena", 
+      "cargo": "Secretario General del Sindicato Nacional de Trabajadores Azucareros.", 
+      "biografia": "Con suficiente conocimiento en la labor sindical y experiencia que incluye los 16 años como dirigente sindical desde una organización de base, provincia y nación. Se desempeñó como miembro profesional del Secretariado de dicho sindicato desde el año 2015. Se caracteriza por su honestidad y consagración al trabajo. Goza de prestigio y autoridad ante sus compañeros y trabajadores.,Secretario General del Sindicato Nacional de Trabajadores Azucareros." 
+    },
+    {
+      "nombre": "Ibis Martinez Palmer", 
+      "imagen": "art6", 
+      "age": "57", 
+      "provincia": "Artemisa", 
+      "municipio": "Mariel", 
+      "cargo": "Jefa de Departamento de Medios de diagnóstico del Policlínico Eduardo Díaz Ortega.", 
+      "biografia": "Trabajó como técnica de laboratorio en el policlínico Flores Betancourt, luego se trasladó al policlínico Eduardo Díaz Ortega. Se desempeña como profesora del área práctica en el laboratorio clínico. Presidenta de CDR hace 26 años. Es miembro del Comité Provincial del Partido. Jefa de Departamento de Medios de diagnóstico del Policlínico Eduardo Díaz Ortega." 
+    },
+    {
+      "nombre": "Miguel Enrique Charbonet Martell", 
+      "imagen": "art7", 
+      "age": "57", 
+      "provincia": "Artemisa", 
+      "municipio": "San Antonio de los Baños", 
+      "cargo": "Metodólogo de la Vicerrectoría de Desarrollo de la Universidad de Artemisa; vicepresidente de la Comisión de Educación, Cultura, Ciencia, Tecnología y Medio Ambiente de la Asamblea Nacional del Poder Popular.", 
+      "biografia": "En su vida laboral ha transitado por varios centros educacionales en diferentes responsabilidades. Es Máster en Didáctica General, Doctor en Ciencias Pedagógicas y Profesor Titular. Desde 1990 es delegado de circunscripción y,desde la VII Legislatura es diputado. Metodólogo de la Vicerrectoría de Desarrollo de la Universidad de Artemisa; vicepresidente de la Comisión de Educación, Cultura, Ciencia, Tecnología y Medio Ambiente de la Asamblea Nacional del Poder Popular; y primer vicepresidente de la Comisión de Educación, Cultura, Ciencia, Tecnología y Comunicación del Parlamento Latinoamericano y Caribeño (Parlatino). " 
+    },
+    {
+      "nombre": "Aylin Álvarez Garcia", 
+      "imagen": "art8", 
+      "age": "36", 
+      "provincia": "Artemisa", 
+      "municipio": "Bahía Honda", 
+      "cargo": "Primera Secretaria del Comité Nacional de la Unión de Jóvenes Comunistas.", 
+      "biografia": "Licenciada en la especialidad de Instructor de Arte, se incorporó a trabajar, recién graduada, en dos centros estudiantiles pertenecientes a la enseñanza general y especial de su Caimito natal, donde materializó proyectos dedicados a niños con discapacidades y trastornos en la conducta.,Ya en ese momento su vida había estado ligada a la UJC al ingresar en la organización a través del proceso especial de crecimiento en 9no. grado y ser secretaria del comité de base en la escuela de instructores de arte 13 de Marzo, de San Antonio de los Baños.,Asumió como presidenta municipal y provincial de la Brigada de Instructores de Arte José Martí, de la entonces  provincia de La Habana. Su tránsito gradual la llevó a ser primera secretaria del Comité Municipal de la UJC en Caimito, un territorio agrícola, para más tarde, con el propósito de incrementar su preparación, desempeñar igual responsabilidad en el municipio capitalino de Playa, donde se vinculó más directamente a los jóvenes de los sectores de la ciencia y el turismo, los que distinguen a este territorio.,Posteriormente, fue promovida al Buró Provincial de la organización juvenil para atender el sector educacional, la salud y del deporte y, más tarde, asumió como primera secretaria del Comité Provincial en la capital del país. Se desempeñó como Segunda Secretaria del Comité Nacional de la UJC. Fue elegida miembro del Comité Central del Partido en el 8vo. Congreso.,Es diputada a la Asamblea Nacional del Poder Popular por el municipio de Caimito, provincia de Artemisa. Como parte del interés por continuar superándose, esta joven, madre de dos niños, inició recientemente su formación doctoral. ,Actualmente, es la Primera Secretaria del Comité Nacional de la Unión de Jóvenes Comunistas (UJC) y miembro del Consejo de Estado de la República de Cuba." 
+    },
+    {
+      "nombre": "Ana Teresa Igarza Martinez", 
+      "imagen": "art9", 
+      "age": "50", 
+      "provincia": "Artemisa", 
+      "municipio": "San Cristóbal", 
+      "cargo": "Directora General de la Zona Especial de Desarrollo Mariel.", 
+      "biografia": "Licenciada en Derecho, trabajó en el Centro de Evaluación de Menores con trastornos en la conducta de La Habana. En las FAR fue juez profesional del Tribunal Militar, al desmovilizarse ingresó en la empresa Tecnotex como abogada,,luego jefa del Departamento Jurídico y más tarde directora jurídica del Grupo de Administración Empresarial. Directora General de la Zona Especial de Desarrollo Mariel." 
+    },
+    {
+      "nombre": "Lourdes Lorenzo Castro", 
+      "imagen": "art10", 
+      "age": "57", 
+      "provincia": "Artemisa", 
+      "municipio": "Candelaria", 
+      "cargo": "Presidenta de la Asamblea Municipal del Poder Popular de Bauta. ", 
+      "biografia": "Trabajó en el sector educacional. Fue miembro del Consejo de la Administración y de la Comisión de Cuadros Municipal. Secretaria de la Asamblea Municipal del Poder Popular. Ha sido delegada en varios mandatos y diputada desde la VII Legislatura. Fue vicepresidenta de la Asamblea Municipal. Presidenta de la Asamblea Municipal del Poder Popular de Bauta." 
+    },
+    {
+      "nombre": "Yadelki Hernandez Morales", 
+      "imagen": "art11", 
+      "age": "47", 
+      "provincia": "Artemisa", 
+      "municipio": "Alquizar", 
+      "cargo": "Presidenta de la Asamblea Municipal del Poder Popular de San Antonio de los Baños. ", 
+      "biografia": "Trabajó en la UBPC Batalla de Palo Seco, perteneciente a la Empresa Tabacalera Lázaro Peña, allí fue directora. Fue seleccionada miembro del Comité Municipal del Partido y en el 2015 elegida como vicepresidenta de la Asamblea Municipal del Poder Popular. Ha sido delegada de base por tres mandatos. Presidenta de la Asamblea Municipal del Poder Popular de San Antonio de los Baños." 
+    },
+    {
+      "nombre": "Yamila Sarduy Martinez", 
+      "imagen": "art12", 
+      "age": "50", 
+      "provincia": "Artemisa", 
+      "municipio": "Artemisa", 
+      "cargo": "Presidenta Provincial de la ANAP.", 
+      "biografia": "En la ANAP del municipio de Rodas, transitó desde instructora hasta presidenta. Al trasladarse a Bauta fue presidenta de la ANAP en ese municipio y en el 2008 miembro del Buró Provincial de la ANAP en La Habana. Con el surgimiento de la provincia de Artemisa se mantiene en el Buró Provincial y en el 2014 pasa a ser la presidenta provincial. Miembro del Buró Nacional de la ANAP." 
+    },
+    {
+      "nombre": "Leonardo Ramon Andollo Valdes", 
+      "imagen": "art13", 
+      "age": "77", 
+      "provincia": "Artemisa", 
+      "municipio": "Bauta", 
+      "cargo": "Diputado", 
+      "biografia": "Luchó contra Batista. Estudió Ingeniería Militar en la URSS y ocupó diferentes responsabilidades en esta rama. Cumplió misión en Etiopía y llegó a ser Jefe del Estado Mayor de la Misión Militar cubana. Fue segundo jefe del Estado Mayor General de las FAR, entre otras responsabilidades. Fue Segundo Jefe de la Comisión Permanente de Implementación y Desarrollo de los Lineamientos. " 
+    },
+    {
+      "nombre": "Jorge Emilio Espinosa Infante", 
+      "imagen": "art14", 
+      "age": "61", 
+      "provincia": "Artemisa", 
+      "municipio": "Caimito", 
+      "cargo": "Jefe de Brigada de la CPA Amistad Cuba-México.", 
+      "biografia": "Trabajó en la terminal de ómnibus de San Antonio de los Baños, fue secretario general de la sección sindical y luego integrante de la Dirección Provincial del Sindicato del Transporte. Laboró en la Empresa de Cultivos Varios de Alquízar, en la UBPC no. 35, donde fue Vanguardia en reiteradas ocasiones y secretario general del núcleo del Partido. Jefe de Brigada de la CPA Amistad Cuba-México." 
+    },
+    {
+      "nombre": "Armando Trujillo Gonzalez", 
+      "imagen": "art15", 
+      "age": "59", 
+      "provincia": "Artemisa", 
+      "municipio": "Guanajay", 
+      "cargo": "Presidente de la UBPC Tabacalera «Felipe Herrera Acea. ", 
+      "biografia": "Comenzó su vida laboral en la Empresa Lázaro Peña. En el año 1994 se traslada para Alquízar por interés de la Empresa como administrador de la UBPC «Lázaro Peña», luego fue promovido a su presidente. Ostenta la Orden Lázaro Peña de 3ro., 2do. y 1er. grado; es Héroe del Trabajo de la República de Cuba. Presidente de la UBPC Tabacalera Felipe Herrera Acea." 
+    },
+    {
+      "nombre": "Omar Barroso Miranda", 
+      "imagen": "art16", 
+      "age": "57", 
+      "provincia": "Artemisa", 
+      "municipio": "Guira de Melena", 
+      "cargo": "Presidente de la CPA Niceto Pérez. ", 
+      "biografia": "En la CPA Niceto Pérez ha trabajado como cooperativista agrícola, operador de tractor, jefe de riego, jefe del cultivo de plátano, administrador y presidente de la CPA. Ha sido miembro del Comité municipal y provincial de la ANAP, y miembro del Comité Municipal del Partido por tres mandatos. Fue delegado al XI Congreso de la ANAP. Presidente de la CPA Niceto Pérez." 
+    },
+    {
+      "nombre": "Orlaide Acosta Jimenez", 
+      "imagen": "art17", 
+      "age": "54", 
+      "provincia": "Artemisa", 
+      "municipio": "Mariel", 
+      "cargo": "Presidenta del Consejo Popular de Cayajabos.", 
+      "biografia": "Trabajó como almacenera, obrera agropecuaria y administradora en la bodega La Altura, en la localidad de Cayajabos. En el año 2011 comienza a desempeñarse como funcionaria ideológica en la ANAP Municipal en Artemisa. Desde el año 2015 es presidenta del Consejo Popular de Cayajabos." 
+    },
+    {
+      "nombre": "Jorge Luis Torres Barrios", 
+      "imagen": "art18", 
+      "age": "55", 
+      "provincia": "Artemisa", 
+      "municipio": "San Antonio de los Baños", 
+      "cargo": "Presidente de la Asamblea Municipal del Poder Popular de Artemisa.", 
+      "biografia": "Trabajó en el Politécnico Mártires de Guanajay, IPOL Mártires de Artemisa, ESBEC José Martí e ISP Rubén Martínez Villena en diferentes responsabilidades. Fue secretario del Consejo de la Administración Municipal, luego vicepresidente del CAM y vicepresidente de la Asamblea Municipal. Es delegado desde el año 2005. Actualmente, es Presidente de la Asamblea Municipal del Poder Popular de Artemisa." 
+    },
+    {
+      "nombre": "Alejandro Miguel Gil Fernandez", 
+      "imagen": "art19", 
+      "age": "59", 
+      "provincia": "Artemisa", 
+      "municipio": "Bahía Honda", 
+      "cargo": "Vice primer ministro y titular de Economía y Planificación. ", 
+      "biografia": "Vice primer ministro y titular de Economía y Planificación. " 
+    },
+    {
+      "nombre": "Dania Rosa Hernandez Hernandez", 
+      "imagen": "art20", 
+      "age": "58", 
+      "provincia": "Artemisa", 
+      "municipio": "San Cristóbal", 
+      "cargo": "Directora de la Escuela Primaria Armando de Pedro. ", 
+      "biografia": "Ha ocupado diversas responsabilidades en distintos centros educacionales donde ha trabajado. Es Máster en Ciencias de la Educación. En su lugar de residencia, es la secretaria general de la delegación Ana Betancourt y activista del Partido en la zona. Fue delegada del Poder Popular en su circunscripción durante dos mandatos. Directora de la Escuela Primaria Armando de Pedro." 
+    },
+    {
+      "nombre": "Marta Sabina Wilson Gonzalez", 
+      "imagen": "art21", 
+      "age": "58", 
+      "provincia": "Artemisa", 
+      "municipio": "Candelaria", 
+      "cargo": "Ministra-presidenta del Banco Central de Cuba.", 
+      "biografia": "Ministra-presidenta del Banco Central de Cuba. Antes fue Presidenta del Banco Exterior de Cuba. " 
+    },
+    {
+      "nombre": "Maria Isabel Bocourt Moreno", 
+      "imagen": "art22", 
+      "age": "52", 
+      "provincia": "Artemisa", 
+      "municipio": "Alquizar", 
+      "cargo": "Presidenta del Consejo Popular de Ciro Redondo.", 
+      "biografia": "Dirigente estudiantil y juvenil. Comenzó su vida laboral en el sector del Comercio, ocupando diferentes responsabilidades con buenos resultados. Desde el 2010 se desempeña como presidenta del consejo popular de Ciro Redondo. Es organizadora de la FMC en su bloque. Es diputada desde el año 2012." 
+    },
+    {
+      "nombre": "Victor Rojo Ramos", 
+      "imagen": "art23", 
+      "age": "65", 
+      "provincia": "Artemisa", 
+      "municipio": "Artemisa", 
+      "cargo": "General de Brigada. Jefe de la Dirección Política de las FAR. ", 
+      "biografia": "General de Brigada. Jefe de la Dirección Política de las FAR. " 
+    },
+    {
+      "nombre": "Ricardo Concepcion Rodriguez", 
+      "imagen": "art24", 
+      "age": "58", 
+      "provincia": "Artemisa", 
+      "municipio": "Bauta", 
+      "cargo": "Gobernador de la provincia de Artemisa", 
+      "biografia": "Inicia su vida laboral en 1989 como adiestrado en la Empresa Provincial de la Construcción en Pinar del Río, posteriormente en 1994 pasó a Jefe de Mecanización en el Establecimiento Oeste del MICONS en La Habana y, a partir de esa fecha, fue promovido a los cargos de Subdirector de Equipo, Director, Vicedirector de Producción y Director, todos en empresas del sistema de la Construcción.,En el 2003 lo nombraron Vicepresidente del Consejo de la Administración Provincial en La Habana y en 2010 pasa a Director Adjunto de la Dirección Integrada de Proyectos del Mariel. En julio del 2019 es designado Jefe de la Administración Provincial en Artemisa.,Ha cursado los Diplomados en Seguridad y Defensa Nacional y en Dirección y Gestión Empresarial. ,Actualmente, es el Gobernador de la provincia de Artemisa." 
+    },
+    {
+      "nombre": "Margarita Soroa Valdes", 
+      "imagen": "art25", 
+      "age": "59", 
+      "provincia": "Artemisa", 
+      "municipio": "Caimito", 
+      "cargo": "Presidenta de la Asamblea Municipal del Poder Popular de San Cristóbal. ", 
+      "biografia": "Ocupó diferentes cargos en el sector de la Educación. Ha sido presidenta de CDR y organizadora de la FMC. Máster en Ciencias de la Educación, ha sido miembro no profesional del Buró Municipal y Provincial del Partido. En el 2011 asumió el cargo de vicepresidenta de la Asamblea Municipal del Poder Popular. ,Actualmente, es la Presidenta de la Asamblea Municipal del Poder Popular de San Cristóbal. " 
+    }
+  ]
+  
