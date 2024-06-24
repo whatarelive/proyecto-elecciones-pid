@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { EleccionesApp } from './EleccionesApp.tsx';
 import "./util/Styles/index.css";
+import { store } from './redux/store';
+import { Provider } from 'react-redux';
 
 
 const root = document.getElementById('root');
@@ -12,9 +14,11 @@ if ( root instanceof HTMLDivElement ) {
   
   element.render(
     <React.StrictMode>
-      <BrowserRouter>
-        <EleccionesApp/>
-      </BrowserRouter>
+      <Provider store={ store }>
+        <BrowserRouter>
+          <EleccionesApp/>
+        </BrowserRouter>
+      </Provider>
     </React.StrictMode>
   )
 }
