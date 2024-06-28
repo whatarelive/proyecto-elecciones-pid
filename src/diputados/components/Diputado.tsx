@@ -1,8 +1,13 @@
+// -------------------- React -------------------
 import { useEffect } from "react";
+// -------------------- Redux -------------------
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState, disbleView, enableView, } from "../../redux";
+// --------------------- SVG --------------------
 import Imagen from "../../assets/svg/person.svg";
+// ----------------------------------------------
 
+// Props del Componente Diputado
 interface Props {
   id: number,
   nombre: string;
@@ -14,23 +19,27 @@ interface Props {
   biografia: string;
 }
 
-export const Diputado = ( { diputado }: { diputado:Props } ) => {
+// Componente auxiliar para mostrar la biografia del diputado.
+const BioInfo = ({ bio }: { bio: string }) => (
+  <div className='my-4'>
+    <h5 className='font-bold mb-3 mx-2'>Biografía</h5>
+    <p className='px-2'>{ bio }</p>  
+  </div>
+)
 
-  const { id, nombre, age, cargo, biografia } = diputado;
+// Componente principal de la informacion del Diputado.
+export const Diputado = ({ diputados }: { diputados: Props } ) => {
+  
+  // Desestruturacion de la props del componente.
+  const { id, nombre, age, cargo, biografia } = diputados;
 
   const { view, idKey } = useSelector((state: RootState) => state.bio);
   const dispacht = useDispatch<AppDispatch>();
 
+  // Reinicia la visualizacion de la biografia del diputado.
   useEffect(() => {
     dispacht(disbleView());
   }, []);
-
-  const BioInfo = () => (
-    <div className='my-4'>
-      <h5 className='font-bold mb-3'>Biografía</h5>
-      <p className='px-1'>{ biografia }</p>  
-    </div>
-  )
 
   return (
     <>    
@@ -39,20 +48,21 @@ export const Diputado = ( { diputado }: { diputado:Props } ) => {
         onClick={() => dispacht( enableView( { idKey: id } ))}
       >
         <div className='flex flex-1 items-center'>
-          
           <div className='flex w-1/3 items-center'>
             <div className='p-2 mx-2 bg-gray-100 rounded-full'>
-              <img className='w-9' src={ Imagen } alt={`Imagen del diputado ${name}`}/>
+              <img className={ (!view || idKey !== id) ? 'w-9': 'w-12' } src={ Imagen } alt={`Imagen del diputado ${name}`}/>
             </div>
             <h5>{ nombre }</h5>
           </div>
-
           <p className='flex px-4 w-1/3'>{ age }</p>
-          
-          <p className='flex w-1/3'>{ cargo }</p>
+          <p className={`flex w-1/3`}>
+          {
+            (cargo.length < 90 || (view && idKey === id)) ? cargo : cargo.substring(0, 90).concat('...')
+          }
+          </p>
         </div>
         { 
-          (view && idKey === id) && <BioInfo/> 
+          (view && idKey === id) && <BioInfo bio={biografia}/> 
         }
       </article>
       <hr/>

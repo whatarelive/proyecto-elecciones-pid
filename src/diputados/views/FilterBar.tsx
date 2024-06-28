@@ -1,4 +1,4 @@
-import { FilterButton } from "../components/FilterButton"
+import { FilterButton } from "../components";
 
 export const FilterBar = () => {
   return (

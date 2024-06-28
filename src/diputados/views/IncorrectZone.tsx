@@ -1,4 +1,4 @@
-import Incorrect from "../../assets/svg/check_circle.svg";
+import Incorrect from "../../assets/svg/warning.svg";
 
 export const IncorrectZone = () => {
   return (
