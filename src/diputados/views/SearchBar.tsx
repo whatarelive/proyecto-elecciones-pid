@@ -1,20 +1,19 @@
-import { AppDispatch, enableViewFilter, RootState } from "../../redux";
+import { enableViewFilter } from "../../redux";
 import { CheckVote } from "./CheckVote";
-import { useDispatch, useSelector } from 'react-redux';
 import { ProvinceFilter } from "./ProvinceFilter";
 // import { IncorrectZone } from "./IncorrectZone";
 import Location from "../../assets/svg/location_on.svg";
 import Search from "../../assets/svg/search.svg";
+import { useReduxData } from "../hooks";
+import { TownFilter } from "./TownFilter";
 
 export const SearchBar = () => {
 
-  const isView = useSelector((state: RootState) => state.filter.isView);
-  const { province, town } = useSelector((state: RootState) => state.data);
-  const dispatch = useDispatch<AppDispatch>();
+  const { dispatch, province, town, lastFilterView } = useReduxData();
 
-  const handleClick = ( event: React.MouseEvent<HTMLElement>) => {
-    event.preventDefault();
-    dispatch( enableViewFilter());
+  const handleClick = () => {
+    const view = lastFilterView === 'none' ? 'Province' : 'none'; 
+    dispatch(enableViewFilter({ lastFilterView: view }));
   }
 
   return (
@@ -44,12 +43,12 @@ export const SearchBar = () => {
               onClick={ handleClick } 
               >
               <label className='flex items-center'>
-                  <img className='px-3' src={ Location } alt="location"/>
-                  <h5 className='text-red-600 select-none'>{`${province}, ${town}`}</h5>
+                <img className='px-3' src={ Location } alt="location"/>
+                <h5 className='text-red-600 select-none'>{`${province} ${town ? ', ' + town : ''}`}</h5>
               </label>
             </div>
             {
-              isView && <ProvinceFilter/>
+              lastFilterView !== "none" && (lastFilterView === 'Town' ? <TownFilter/> : <ProvinceFilter/>)
             }
           </div>
         </div>

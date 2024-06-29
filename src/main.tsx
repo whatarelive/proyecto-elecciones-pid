@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { EleccionesApp } from './EleccionesApp.tsx';
 import "./util/Styles/index.css";
-import { store } from './redux/store';
+import { store } from './redux';
 import { Provider } from 'react-redux';
 
 

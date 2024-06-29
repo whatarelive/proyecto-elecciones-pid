@@ -1,22 +1,21 @@
+import { useEffect } from "react";
+import { setDiputados } from "../../redux";
+import { useReduxData } from "../hooks";
 import { FilterBar } from "../views/FilterBar";
 import { SearchBar } from "../views/SearchBar";
-import { Diputado } from "../components/Diputado";
-import { useDispatch, useSelector } from "react-redux";
-import { AppDispatch, RootState, setDiputados } from "../../redux";
-import { useEffect } from "react";
+import { Diputado } from "../components";
 
 
 export const DiputadosPage = () => {
 
-  const { diputados } = useSelector((state: RootState) => state.data);
-  const dispactch = useDispatch<AppDispatch>();
+  const {dispatch, diputados} = useReduxData();
 
   useEffect(() => {
-    dispactch( setDiputados() );  
+    dispatch( setDiputados() );  
   }, []);
   
   return (
-    <main className='flex flex-col w-4/5 min-h-screen m-auto mt-20 rounded-ss-3xl rounded-se-3xl bg-white'>
+    <main className='flex flex-col w-4/5 min-h-screen m-auto mt-12 rounded-ss-3xl rounded-se-3xl bg-white'>
       {/* <!-- barra pricipal --> */}
       <SearchBar/>
       <hr />
